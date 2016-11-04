@@ -13,40 +13,40 @@ UC info Also will have a comment section where you can talk or leave comments to
 
 UC- Info will be made easy to navigate and be very easy to use.
 
+ 
+Table of Contents
+=================
 
--
-###Table of Contents
-- [Project overview](#Project-overview)
-- [Members](#Members)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--
-
+  * [Project overview](#project-overview)
+  * [Members](#members)
+  * [Technologies Used](#technologies-used)
+    * [Python](#python)
+    * [AngularJs](#angularjs)
+    * [Curl](#curl)
+    * [Visual Studio Code](#vs-code)
+ 
+ 
 ###Project overview 
 
 I had a creators block and took a while even to think what my Single page application should be.
-But i had orignally was thinking of a getting a game using [Canvas](www.w3schools.com/html/html5_canvas.asp) but time was against me.
-With trying to learn new languages like [Python](https://www.python.org)and [Flask](flask.pocoo.org/) i knew i would have little time.
+But i had orignally was thinking of a getting a game using [Canvas](http://www.w3schools.com/html/html5_canvas.asp) but time was against me.
+With trying to learn new languages like [Python](https://www.python.org)and [Flask](flask.pocoo.org) i knew i would have little time.
 So i choose something that i live with and a nothing to complicated so a blog is what i went for at the end. 
 
 ###Members 
 Im working by myself i decided to learn some aspects better for this module .
 
+###Technologies Used
+
+
+####Python
+
+
+####AngularJs
+
+####Curl
+
+####Vs Code
 
 
 
