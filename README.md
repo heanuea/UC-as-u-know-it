@@ -21,7 +21,7 @@ Table of Contents
   * [Members](#members)
   * [Technologies Used](#technologies-used)
     * [Python](#python)
-    * [AngularJs](#angularjs)
+    * [MongoDB](#mongodb)
     * [Curl](#curl)
     * [Visual Studio Code](#vs-code)
  
@@ -46,7 +46,14 @@ Flask is easier to get started with, when compared to Django
 
 
 
-####AngularJs
+####MongoDB
+
+ MongoDB stores data in JSON-like documents that can vary in structure. Related information is stored together for fast query access through the MongoDB query language. MongoDB uses dynamic schemas, meaning that you can create records without first defining the structure, such as the fields or the types of their values. You can change the structure of records (which we call documents) simply by adding new fields or deleting existing ones. This data model give you the ability to represent hierarchical relationships, to store arrays, and other more complex structures easily. Documents in a collection need not have an identical set of fields and denormalization of data is common. MongoDB was also designed with high availability and scalability in mind, and includes out-of-the-box replication and auto-sharding.
+ 
+ Advantages over sql ------
+ MongoDB’s flexible data model also means that your database schema can evolve with business requirements. For example, schema changes that took days of weeks in The Weather Channel's MySQL databases could be made in just hours with MongoDB.
+
+
 
 ####Curl
 
