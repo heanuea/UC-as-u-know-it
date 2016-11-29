@@ -39,7 +39,11 @@ Im working by myself i decided to learn some aspects better for this module .
 ###Technologies Used
 
 
-####Python
+####Python 
+               (Flask)
+Flask is a Python framework for creating web applications. 
+Flask is easier to get started with, when compared to Django
+
 
 
 ####AngularJs
