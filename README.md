@@ -29,6 +29,7 @@ Table of Contents
     * [MongoDB](#mongodb)
     * [Brackets](#brackets)
   * [Issues](#issues)
+  * [Application](#application)
   * [License](#license)
  
 ###Project overview 
@@ -123,6 +124,20 @@ There is no reason why im using brackets i have been using it for at least a yea
 ###Issues 
 See the Issues i had during the development [Issues](https://github.com/heanuea/UC-as-u-know-it/issues)
 
+###Application
+
+The application is written using the [Flask](http://flask.pocoo.org/) library in [Python 3](https://www.python.org).
+Both must be installed to run the project.
+
+We use the [sqlite3](https://docs.python.org/2/library/sqlite3.html) package for persistence in the application.
+This must also be installed.
+However, no further configuration our setup is required, as the database is fully contained in the db directory in this repository.
+
+Once these prerequisites are installed, the application can be run locally:
+```bash
+$ python app.py
+```
+Once the application is running, it can be accessed by pointing your browser at http://127.0.0.1:4000/ .
 
 ### License
 
