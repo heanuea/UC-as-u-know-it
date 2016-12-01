@@ -29,7 +29,7 @@ Table of Contents
     * [MongoDB](#mongodb)
     * [Brackets](#brackets)
   * [Issues](#issues)
-  
+  * [License](#license)
  
 ###Project overview 
 
@@ -121,5 +121,10 @@ There is no reason why im using brackets i have been using it for at least a yea
 
 
 ###Issues 
-See the Issues i had during the development 
+See the Issues i had during the development [Issues](https://github.com/heanuea/UC-as-u-know-it/issues)
+
+
+### License
+
+This project is licensed under the GMIT License - see the [LICENSE.md](LICENSE.md) file for details
 
