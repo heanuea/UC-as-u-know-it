@@ -28,6 +28,7 @@ Table of Contents
     * [Python](#python)
     * [MongoDB](#mongodb)
     * [Brackets](#brackets)
+  * [Libraries](#libraries)
   * [Issues](#issues)
   * [Application](#application)
   * [License](#license)
@@ -77,6 +78,10 @@ End with an example of getting some data out of the system or using it for a lit
 
 ##Technologies Used
 
+The application is written using the [Flask](http://flask.pocoo.org/) library in [Python 3](https://www.python.org).
+Both must be installed to run the project.
+
+
 ####Cmdr 
 
 An alternative console for windows great for running [cURL](https://curl.haxx.se/)
@@ -121,14 +126,23 @@ Download it here[Brackets](http://brackets.io/)
 There is no reason why im using brackets i have been using it for at least a year so i stuck with it 
 
 
+###Libraries
+
+The Libraries i used in the project mainly was [JQuery](https://jquery.com/) and [BootStrap](http://getbootstrap.com/)
+I used these over the likes of AngularJs is because i found that it was easier to emplement with my html files.
+Reason for that was it was alot easier with the use of [Jinga2](http://jinja.pocoo.org/docs/dev/).
+Its very easy to work your code as you have one parent file that you can use for the whole app.
+But can be written if needs to .
+
+
 ##Issues 
 See the Issues i had during the development [Issues](https://github.com/heanuea/UC-as-u-know-it/issues)
 
 
 ##Application
 
-The application is written using the [Flask](http://flask.pocoo.org/) library in [Python 3](https://www.python.org).
-Both must be installed to run the project.
+
+
 
 We use the [sqlite3](https://docs.python.org/2/library/sqlite3.html) package for persistence in the application.
 This must also be installed.
