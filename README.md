@@ -19,16 +19,17 @@ Table of Contents
 =================
 
   * [Project overview](#project-overview)
+  * [Members](#members)
   * [Prerequisites](#prerequisites)
   * [Installing](#installing)
-  * [Members](#members)
   * [Technologies Used](#technologies-used)
     * [Cmdr](#cmdr)
     * [Curl](#curl)
     * [Python](#python)
     * [MongoDB](#mongodb)
     * [Brackets](#brackets)
- 
+  * [Issues](#issues)
+  
  
 ###Project overview 
 
@@ -36,6 +37,13 @@ I had a creators block and took a while even to think what my Single page applic
 But i had orignally was thinking of a getting a game using [Canvas](http://www.w3schools.com/html/html5_canvas.asp) but time was against me.
 With trying to learn new languages like [Python](https://www.python.org)and [Flask](flask.pocoo.org) i knew i would have little time.
 So i choose something that i live with and a nothing to complicated so a blog is what i went for at the end. 
+
+
+###Members 
+Im working by myself i decided to learn some aspects better for this module .
+
+
+
 
 ### Prerequisites
 
@@ -62,12 +70,6 @@ Open a terminal window with Start - Run - Command Prompt, navigate to the anacon
 then type conda update conda
 ```
 End with an example of getting some data out of the system or using it for a little demo.
-
-
-
-
-###Members 
-Im working by myself i decided to learn some aspects better for this module .
 
 
 
@@ -118,5 +120,6 @@ Download it here[Brackets](http://brackets.io/)
 There is no reason why im using brackets i have been using it for at least a year so i stuck with it 
 
 
-
+###Issues 
+See the Issues i had during the development 
 
