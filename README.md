@@ -1,5 +1,6 @@
 UC-Info
 =============
+
 ####Built by [Alan Heanue](https://github.com/heanuea)
 
 ###The Project
@@ -20,6 +21,7 @@ Table of Contents
   * [Project overview](#project-overview)
   * [Members](#members)
   * [Technologies Used](#technologies-used)
+    * [Cmdr](#cmdr)
     * [Python](#python)
     * [MongoDB](#mongodb)
     * [Curl](#curl)
@@ -37,6 +39,16 @@ So i choose something that i live with and a nothing to complicated so a blog is
 Im working by myself i decided to learn some aspects better for this module .
 
 ###Technologies Used
+
+
+####Cmdr 
+
+An alternative console for windows great for running [cURL](https://curl.haxx.se/)
+cURL is a command line tool for getting or sending files using URL syntax, which we need for this project as we 
+are using client to server connections. Widely used for transferring data and scripts.
+
+
+
 
 
 ####Python 
