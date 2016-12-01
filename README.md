@@ -32,7 +32,9 @@ Table of Contents
   * [Issues](#issues)
   * [Application](#application)
   * [License](#license)
- 
+  * [Conclusion](#conclusion)
+  * [References](#references)
+  
 ##Project overview 
 
 I had a creators block and took a while even to think what my Single page application should be.
@@ -141,20 +143,65 @@ See the Issues i had during the development [Issues](https://github.com/heanuea/
 
 ##Application
 
+-In the Main.py file i set the different routes for the view 
+![alt text](pics/routes.jpg "") 
 
 
+-Than i created each view and routed them individually.
+I used the {% extends to inheriate from the base class.
+Basically seperating classes out to files i find it easier to understand.
+```
+ {% extends "base.html" %}
+{% block body %}
+    <h1>Welcome!</h1>
+    <p>This web page. It's the greatest webpage there is.</p>
+```    
+![alt text](pics/views.jpg "") 
 
-We use the [sqlite3](https://docs.python.org/2/library/sqlite3.html) package for persistence in the application.
-This must also be installed.
-However, no further configuration our setup is required, as the database is fully contained in the db directory in this repository.
+-A small bit of validation here so this says when you logged in and 
+logged out this is
+
+![alt text](session/views.jpg "") 
+
+-this is set in the base class so it be seen by others that inheriate 
+it will display Flash messages. 
+
+![alt text](FlahMessage/views.jpg "") 
+
+-More validation here as i just put a 404 html file so
+if you add /hrhgdb to the exsisting URL it will display this message 
+
+![alt text](four04/views.jpg "")
+
 
 Once these prerequisites are installed, the application can be run locally:
 ```bash
 $ python app.py
 ```
-Once the application is running, it can be accessed by pointing your browser at http://127.0.0.1:4000/ .
+Once the application is running, it can be accessed by pointing your browser at http://127.0.0.1:5000/ .
 
 ##License
 
 This project is licensed under the GMIT License - see the [LICENSE.md](LICENSE.md) file for details
+________________________________________________________________________________________________________________________________________
+#Conclusion
+To a slow start and a crazy finish to this project i have to say im not impressed with the final goods.
+I didnt end up getting the full spec finished the databases were giving me trouble and now i reliased, 
+i should have maybe have magaged my app more the only the thing i got out of this is mostly the python.
+Now i know the lay out and know how the basics work i can say i will be working with Python in thre future.
+I have a better understanding how web servers and clients work so thats another thing i got out of and 
+overall how the architecture works. My weak point is databases and will have to work on that in the future.
 
+
+
+
+
+## References
+https://www.tutorialspoint.com/flask/flask_sqlalchemy.htm
+https://www.youtube.com/watch?v=_vrAjAHhUsA&index=5&list=PLLjmbh6XPGK4ISY747FUHXEl9lBxre4mM
+https://www.youtube.com/playlist?list=PLLjmbh6XPGK4ISY747FUHXEl9lBxre4mM  
+https://www.youtube.com/watch?v=Lv1fv-HmkQo&list=PLQVvvaa0QuDc_owjTbIY4rbgXOFkUYOUB  
+https://pythonhosted.org/Flask-Bootstrap/forms.html
+http://getbootstrap.com/  
+http://flask.pocoo.org/docs/0.11/  
+  
