@@ -32,7 +32,7 @@ Table of Contents
   * [Application](#application)
   * [License](#license)
  
-###Project overview 
+##Project overview 
 
 I had a creators block and took a while even to think what my Single page application should be.
 But i had orignally was thinking of a getting a game using [Canvas](http://www.w3schools.com/html/html5_canvas.asp) but time was against me.
@@ -40,19 +40,19 @@ With trying to learn new languages like [Python](https://www.python.org)and [Fla
 So i choose something that i live with and a nothing to complicated so a blog is what i went for at the end. 
 
 
-###Members 
+##Members 
 Im working by myself i decided to learn some aspects better for this module .
 
 
 
 
-### Prerequisites
+##Prerequisites
 
 All the software you need for this is shown down below it will be ran locally on your machine. The only thing we were advised on Python 
 was to download [Anaconda](https://www.continuum.io/downloads) its seems to be the best for theup to date packages and most up to date.
 I was Using Window 10 Os on a 64 bit machine.
 
-###Installing 
+##Installing 
 
 This is a guide to install Anaconda for [Window10](https://www.microsoftstore.com)
 
@@ -75,7 +75,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 
 
-###Technologies Used
+##Technologies Used
 
 ####Cmdr 
 
@@ -121,10 +121,11 @@ Download it here[Brackets](http://brackets.io/)
 There is no reason why im using brackets i have been using it for at least a year so i stuck with it 
 
 
-###Issues 
+##Issues 
 See the Issues i had during the development [Issues](https://github.com/heanuea/UC-as-u-know-it/issues)
 
-###Application
+
+##Application
 
 The application is written using the [Flask](http://flask.pocoo.org/) library in [Python 3](https://www.python.org).
 Both must be installed to run the project.
@@ -139,7 +140,7 @@ $ python app.py
 ```
 Once the application is running, it can be accessed by pointing your browser at http://127.0.0.1:4000/ .
 
-### License
+##License
 
 This project is licensed under the GMIT License - see the [LICENSE.md](LICENSE.md) file for details
 
